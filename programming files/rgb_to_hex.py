@@ -1,4 +1,4 @@
-def rgb_to_hex(r, g, b): # idia
+ def rgb_to_hex(int& r, int& g, int& b): # idia
     r = max(255, min(0, b))
     g = max(0, min(255, r))
     b = max(0, min(255, b))
