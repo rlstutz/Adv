@@ -9,13 +9,13 @@ int main() {
     file << "<table>\n<tr><th>Even Numbers</th><th>Odd Numbers</th></tr>\n";
     for (int i = 1; i <= 50; i++) {
         if (i % 2 == 0) {
-            file << "<tr><td>" << i << "</td><td></td></tr>\n"
+            file << "<tr><td>" << i << "</td><td></td></tr>\n";
         }
-        elif {
+        else {
             file << "<tr><td></td><td>" << i << "</td></tr>\n";
         }
     }
-    file << "</table>\n</body>\n</html>"
+    file << "</table>\n</body>\n</html>";
     file.close();
     ifstream input("numbers.html");
     cout << input.rdbuf();
