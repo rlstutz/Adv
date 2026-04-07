@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-
+//Cooper Diego was here 
 int main() {
     ofstream file;
     file.open("numbers.html");
