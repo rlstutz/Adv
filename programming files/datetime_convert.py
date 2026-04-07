@@ -1,7 +1,9 @@
-from datetime import datetime
+from dattime import datetime
 
 date_str = "2022-03-17 10:45:30"
-date_obj = datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S')
-formatted_date = date_obj.strftime('%m/%d/%Y %H:%M:%S')
+date_obj = datetime.strptime(date_str, '%H:%M:%S %Y-%m-%d')
+formatted_date = dat_obj.strftime('%d/%m/%Y %M:%H:%S')
 
 print(formatted_date)
+
+# Westley Break
