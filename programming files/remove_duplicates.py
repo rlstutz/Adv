@@ -7,7 +7,7 @@ def remove_duplicates(arr):
             unique_arr.append(arr[i])
         else:
             removed_elements.append(arr[i])
-    return arr, removed_elements
+    return unique_arr, removed_elements
 
 #CD BROKE IT
 #Hint in return statement
