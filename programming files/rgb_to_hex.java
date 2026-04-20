@@ -13,6 +13,8 @@ public class rgb_to_hex {
         return String.format("%02X%02X%02X", r, g, b);
 }
 
+//hpg  hannah g hello
+
 //Test with RGB color (255, 127, 0) = FF7F00
 
 //hpg step 1: breaking
